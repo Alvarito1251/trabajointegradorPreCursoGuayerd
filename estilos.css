@@ -1,0 +1,119 @@
+body{
+    background-color: #D1BF91;
+    margin:0;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fondobordo {
+    background-color: #A6341B;
+}
+.contenedor1 {
+    display:flex;
+    flex-wrap:nowrap;
+    background-color: #A6341B;
+    text-decoration: none;
+}
+.contenedor1 > div{
+    border-radius: 5%;
+    background-color: #F9C743;
+    width: 30%;
+    margin: 10px;
+    text-align:center;
+    line-height: 95%;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+.contenedor2 {
+    display:flex;
+    flex-wrap:nowrap;
+    background-color: #A6341B;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.imgp {
+    border-radius: 5%;
+    background-color: #C7C8C4;
+    margin: 10px;
+    text-align:center;
+    line-height: 95%;
+    font-size: 30px;
+}
+.infop {
+    border-radius: 5%;
+    background-color: #D1BF91;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    line-height: 95%;
+    font-size: 35px;
+}
+h3 {
+    margin-left: 20px;
+    text-decoration: underline;
+}
+p {
+    margin: 20px;
+    text-align: justify;
+}
+.contenido {
+    display: flex;
+    background-color: #D1BF91;
+    flex-wrap: wrap;
+}
+.contenido > p {
+    text-align: center;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.contenido > h1 {
+    font-size: 50px;
+    margin-left: 60px;
+}
+* {
+    box-sizing: border-box;
+}
+.formularioC {
+    display: fixed;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    height: 80%;
+    background-color: cornsilk;
+}
+.contenedor {
+    width: 100%;
+    padding: 45px;
+}
+.contenedor > div {
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border: none;
+}
+input[type="text"], input[type="email"]{
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    margin-left: 20%;
+}
+input[type="submit"]{
+    margin-left: 83%;
+    padding: 15px 65px;
+}
+input[type="text-area"]{
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    margin-left: 20%;
+}
